@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ccee66;
+    overflow: hidden;
+}
+
+body::before{
+    content: '';
+    background-color: #000000;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    left: -43rem;
+    transform: rotate(75deg)
+}
+
+body::after{
+    content: 'Nike';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #312f2fa2;
+    font-size: 300px;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 10%;
+    margin: 30px 0px 0px 50px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h1{
+    padding: 15px 0px;
+    font-size: 60px;
+}
+
+section{
+    max-width: 500px;
+    margin-right: 10%;
+}
+
+section p{
+    padding: 15px 0px;
+    font-size: 19px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #ccee66;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 0.9rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.tenis img{
+    width: 750px;
+    transform: rotate(-25deg);
+    height: 75%;
+    margin-left: 10%;
+    margin-right: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    height: 75%;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    text-align: justify;
+}
+
+.caixa-botoes{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 0.8rem;
+}
+
+.botoes{
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.botoes:active{
+    opacity: 0.6;
+}
+
+.verde{
+    background: #ccee66;
+}
+
+.azul{
+    background: #58cced;
+}
+
+.rosa{
+    background: #ff9eb5;
+}
